@@ -1,0 +1,1010 @@
+[
+	{
+		"id": "6",
+		"nomePasto": "B. di Soia+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"contiene-soia",
+			"vegetale",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "b_soia_secca",
+				"quantita_g": 70
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 80
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 429,
+		"calories_max": 537
+	},
+	{
+		"id": "17",
+		"nomePasto": "Banana",
+		"tipoPasto": [
+			"Spuntino Mattutino",
+			"Spuntino Pomeridiano"
+		],
+		"etichette": [
+			"frutta"
+		],
+		"ingredienti": [
+			{
+				"id": "banana",
+				"quantita_pezzi": 1
+			}
+		],
+		"calories_min": 107,
+		"calories_max": 107
+	},
+	{
+		"id": "10",
+		"nomePasto": "Fagioli+Sgombro",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"legume"
+		],
+		"ingredienti": [
+			{
+				"id": "fagioli",
+				"quantita_g": 240
+			},
+			{
+				"id": "sgombro_olio_sgocc",
+				"quantita_g": 100
+			}
+		],
+		"calories_min": 459,
+		"calories_max": 459
+	},
+	{
+		"id": "39",
+		"nomePasto": "Fiocchi + Noci",
+		"tipoPasto": [
+			"Spuntino Mattutino",
+			"Spuntino Pomeridiano"
+		],
+		"ingredienti": [
+			{
+				"id": "fiocchi_latte_light",
+				"quantita_g": 150,
+				"quantita_pezzi": null
+			},
+			{
+				"id": "noci",
+				"quantita_g": 15,
+				"quantita_pezzi": null
+			}
+		],
+		"calories_min": 203,
+		"calories_max": 203
+	},
+	{
+		"id": "19",
+		"nomePasto": "Fiocchi di Latte",
+		"tipoPasto": [
+			"Spuntino Pomeridiano",
+			"Pre-Nanna"
+		],
+		"etichette": [
+			"latticino"
+		],
+		"ingredienti": [
+			{
+				"id": "fiocchi_latte",
+				"quantita_g_min": 175,
+				"quantita_g_max": 200
+			}
+		],
+		"calories_min": 158,
+		"calories_max": 180
+	},
+	{
+		"id": "14",
+		"nomePasto": "Fiocchi di Latte e Fette Biscottate",
+		"tipoPasto": [
+			"Colazione"
+		],
+		"etichette": [
+			"latticino"
+		],
+		"ingredienti": [
+			{
+				"id": "fiocchi_latte",
+				"quantita_g_min": 150,
+				"quantita_g_max": 200
+			},
+			{
+				"id": "fette_biscottate",
+				"quantita_pezzi": 2
+			}
+		],
+		"calories_min": 217,
+		"calories_max": 262
+	},
+	{
+		"id": "32",
+		"nomePasto": "Frittata di Albumi con Piselli e Pane",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"uova",
+			"legume",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "albume_uovo",
+				"quantita_g": 250
+			},
+			{
+				"id": "piselli_scatola",
+				"quantita_g": 240
+			},
+			{
+				"id": "pane",
+				"quantita_g": 60
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 545,
+		"calories_max": 545
+	},
+	{
+		"id": "28",
+		"nomePasto": "Frittata di Albumi e Lupini+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"uova",
+			"legume",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "albume_uovo",
+				"quantita_g": 250
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": null
+			},
+			{
+				"id": "pane",
+				"quantita_g": 40
+			},
+			{
+				"id": "lupini",
+				"quantita_g": 150
+			}
+		],
+		"calories_min": 418,
+		"calories_max": 418
+	},
+	{
+		"id": "30",
+		"nomePasto": "Frittata di Albumi+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"uova",
+			"legume",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "albume_uovo",
+				"quantita_g": 300
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			},
+			{
+				"id": "pane",
+				"quantita_g": 80
+			}
+		],
+		"calories_min": 462,
+		"calories_max": 462
+	},
+	{
+		"id": "8",
+		"nomePasto": "Frittata+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"uova",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "uova",
+				"quantita_pezzi": 3
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 90
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 198,
+		"calories_max": 333
+	},
+	{
+		"id": "33",
+		"nomePasto": "Grana Padano",
+		"tipoPasto": [
+			"Spuntino Pomeridiano",
+			"Spuntino Mattutino"
+		],
+		"etichette": [
+			"latticino"
+		],
+		"ingredienti": [
+			{
+				"id": "grana_padano_ins",
+				"quantita_pezzi": 1
+			}
+		],
+		"calories_min": 119,
+		"calories_max": 119
+	},
+	{
+		"id": "21",
+		"nomePasto": "Mandorle",
+		"tipoPasto": [
+			"Spuntino Pomeridiano"
+		],
+		"etichette": [
+			"frutta-secca"
+		],
+		"ingredienti": [
+			{
+				"id": "mandorle",
+				"quantita_g": 20
+			}
+		],
+		"calories_min": 122,
+		"calories_max": 122
+	},
+	{
+		"id": "18",
+		"nomePasto": "Noci",
+		"tipoPasto": [
+			"Spuntino Pomeridiano"
+		],
+		"etichette": [
+			"frutta-secca"
+		],
+		"ingredienti": [
+			{
+				"id": "noci",
+				"quantita_g": 20
+			}
+		],
+		"calories_min": 131,
+		"calories_max": 131
+	},
+	{
+		"id": "pane_fiocchidilatte_sardine",
+		"nomePasto": "Pane con Fiocchi e Sardine",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"ingredienti": [
+			{
+				"id": "fiocchi_latte_light",
+				"quantita_g": 150,
+				"quantita_pezzi": null
+			},
+			{
+				"id": "pane",
+				"quantita_g": 85,
+				"quantita_pezzi": null
+			},
+			{
+				"id": "sardine_olio_sgocc",
+				"quantita_g": 85,
+				"quantita_pezzi": null
+			}
+		],
+		"calories_min": 493,
+		"calories_max": 493
+	},
+	{
+		"id": "37",
+		"nomePasto": "Pane e Salmone",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "salmone",
+				"quantita_g": 200
+			},
+			{
+				"id": "pane",
+				"quantita_g": 50
+			}
+		],
+		"calories_min": 551,
+		"calories_max": 551
+	},
+	{
+		"id": "23",
+		"nomePasto": "Parmigiano",
+		"tipoPasto": [
+			"Spuntino Pomeridiano",
+			"Spuntino Mattutino"
+		],
+		"etichette": [
+			"latticino"
+		],
+		"ingredienti": [
+			{
+				"id": "parmigiano",
+				"quantita_g": 20
+			}
+		],
+		"calories_min": 80,
+		"calories_max": 80
+	},
+	{
+		"id": "12",
+		"nomePasto": "Paté di Lupini+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"vegetale",
+			"legume",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "lupini",
+				"quantita_g": 250
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 80
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 498,
+		"calories_max": 606
+	},
+	{
+		"id": "4",
+		"nomePasto": "Pesce Bianco+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "pesce_bianco",
+				"quantita_g": 200
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 80
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 198,
+		"calories_max": 306
+	},
+	{
+		"id": "24",
+		"nomePasto": "Petto di Pollo+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"carne",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "petto_pollo",
+				"quantita_g": 150
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 80
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 446,
+		"calories_max": 554
+	},
+	{
+		"id": "27",
+		"nomePasto": "Piadina+Frittata",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"uova",
+			"piadina"
+		],
+		"ingredienti": [
+			{
+				"id": "piadina",
+				"quantita_g": 80
+			},
+			{
+				"id": "uova",
+				"quantita_pezzi": 3
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 335,
+		"calories_max": 335
+	},
+	{
+		"id": "11",
+		"nomePasto": "Piadina+P.Fagioli",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"vegetale",
+			"legume",
+			"piadina"
+		],
+		"ingredienti": [
+			{
+				"id": "piadina",
+				"quantita_g": 80
+			},
+			{
+				"id": "fagioli",
+				"quantita_g": 240
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 580,
+		"calories_max": 580
+	},
+	{
+		"id": "7",
+		"nomePasto": "Piadina+Ricotta",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"latticino",
+			"piadina"
+		],
+		"ingredienti": [
+			{
+				"id": "piadina",
+				"quantita_g": 80
+			},
+			{
+				"id": "ricotta",
+				"quantita_g_min": 150,
+				"quantita_g_max": 200
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 0
+			}
+		],
+		"calories_min": 470,
+		"calories_max": 545
+	},
+	{
+		"id": "13",
+		"nomePasto": "Piadina+Salmone",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"pesce",
+			"piadina"
+		],
+		"ingredienti": [
+			{
+				"id": "piadina",
+				"quantita_g": 80
+			},
+			{
+				"id": "salmone",
+				"quantita_g_min": 100,
+				"quantita_g_max": 150
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 543,
+		"calories_max": 647
+	},
+	{
+		"id": "3",
+		"nomePasto": "Piadina+Tofu",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"contiene-soia",
+			"vegetale",
+			"piadina"
+		],
+		"ingredienti": [
+			{
+				"id": "piadina",
+				"quantita_g_min": 80,
+				"quantita_g_max": 100
+			},
+			{
+				"id": "tofu",
+				"quantita_g": 150
+			}
+		],
+		"calories_min": 434,
+		"calories_max": 495
+	},
+	{
+		"id": "25",
+		"nomePasto": "Pollo Vegetale+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"vegetale",
+			"pane",
+			"legume"
+		],
+		"recipeId": "00001",
+		"ingredienti": [
+			{
+				"id": "prodotto_ricetta_pollo_vegetale_v4_2",
+				"quantita_pezzi": 1
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			},
+			{
+				"id": "pane",
+				"quantita_g": 40,
+				"opzionale": true
+			}
+		],
+		"calories_min": 198,
+		"calories_max": 198
+	},
+	{
+		"id": "Proteine_Isolate",
+		"nomePasto": "Proteine Isolate",
+		"tipoPasto": [
+			"Post-Workout"
+		],
+		"ingredienti": [
+			{
+				"id": "whey",
+				"quantita_g": 30,
+				"quantita_pezzi": null
+			}
+		],
+		"calories_min": 114,
+		"calories_max": 114
+	},
+	{
+		"id": "34",
+		"nomePasto": "Riso con Sardine e Fiocchi di Latte",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"latticino",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "sardine_olio_sgocc",
+				"quantita_g": 85
+			},
+			{
+				"id": "fiocchi_latte",
+				"quantita_g_min": 150,
+				"quantita_g_max": 200
+			}
+		],
+		"calories_min": 571,
+		"calories_max": 616
+	},
+	{
+		"id": "35",
+		"nomePasto": "Riso con Sardine e Ricotta",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"latticino",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "sardine_olio_sgocc",
+				"quantita_g": 85
+			},
+			{
+				"id": "ricotta",
+				"quantita_g": 100
+			}
+		],
+		"calories_min": 586,
+		"calories_max": 586
+	},
+	{
+		"id": "36",
+		"nomePasto": "Riso e Tofu",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"soia",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "tofu",
+				"quantita_g": 150
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": null
+			}
+		],
+		"calories_min": 467,
+		"calories_max": 467
+	},
+	{
+		"id": "31",
+		"nomePasto": "Riso Integrale con Sgombro e Ricotta",
+		"tipoPasto": [
+			"Pranzo",
+			"Cena"
+		],
+		"etichette": [
+			"pesce",
+			"latticino",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "sgombro_olio_sgocc",
+				"quantita_g": 108
+			},
+			{
+				"id": "ricotta_light",
+				"quantita_g": 100
+			},
+			{
+				"id": "riso_integrale",
+				"quantita_g": 70
+			}
+		],
+		"calories_min": 579,
+		"calories_max": 579
+	},
+	{
+		"id": "26",
+		"nomePasto": "Riso+Petto di Pollo",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"carne",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "petto_pollo",
+				"quantita_g": 200
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 698,
+		"calories_max": 698
+	},
+	{
+		"id": "29",
+		"nomePasto": "Riso+Ricotta e Parmigiano",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"latticino",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "ricotta",
+				"quantita_g": 150
+			},
+			{
+				"id": "parmigiano",
+				"quantita_g": 30
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 712,
+		"calories_max": 712
+	},
+	{
+		"id": "5",
+		"nomePasto": "Riso+Sgombro all'Olio",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"pesce",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "sgombro_olio_sgocc",
+				"quantita_g": 125
+			}
+		],
+		"calories_min": 545,
+		"calories_max": 545
+	},
+	{
+		"id": "1",
+		"nomePasto": "Riso+Tonno all'Olio",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"pesce",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "tonno_olio_sgocc",
+				"quantita_g": 112
+			}
+		],
+		"calories_min": 493,
+		"calories_max": 493
+	},
+	{
+		"id": "9",
+		"nomePasto": "Riso+Uova",
+		"tipoPasto": [
+			"Pranzo"
+		],
+		"etichette": [
+			"uova",
+			"riso"
+		],
+		"ingredienti": [
+			{
+				"id": "riso",
+				"quantita_g": 80
+			},
+			{
+				"id": "uova",
+				"quantita_pezzi": 3
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 368,
+		"calories_max": 368
+	},
+	{
+		"id": "2",
+		"nomePasto": "Seitan+Pane",
+		"tipoPasto": [
+			"Cena"
+		],
+		"etichette": [
+			"vegetale",
+			"pane"
+		],
+		"ingredienti": [
+			{
+				"id": "seitan",
+				"quantita_g": 150
+			},
+			{
+				"id": "pane",
+				"quantita_g_min": 40,
+				"quantita_g_max": 80
+			},
+			{
+				"id": "olio_evo",
+				"quantita_g": 10
+			}
+		],
+		"calories_min": 380,
+		"calories_max": 488
+	},
+	{
+		"id": "20",
+		"nomePasto": "Tofu",
+		"tipoPasto": [
+			"Spuntino Pomeridiano"
+		],
+		"etichette": [
+			"contiene-soia",
+			"vegetale"
+		],
+		"ingredienti": [
+			{
+				"id": "tofu",
+				"quantita_g": 50
+			}
+		],
+		"calories_min": 63,
+		"calories_max": 63
+	},
+	{
+		"id": "16",
+		"nomePasto": "Whey e Banana",
+		"tipoPasto": [
+			"Colazione"
+		],
+		"etichette": [
+			"proteine-polvere",
+			"frutta"
+		],
+		"ingredienti": [
+			{
+				"id": "whey",
+				"quantita_g": 30
+			},
+			{
+				"id": "banana",
+				"quantita_pezzi": 1
+			}
+		],
+		"calories_min": 221,
+		"calories_max": 221
+	},
+	{
+		"id": "22",
+		"nomePasto": "Yogurt Greco 0%",
+		"tipoPasto": [
+			"Spuntino Pomeridiano"
+		],
+		"etichette": [
+			"latticino"
+		],
+		"ingredienti": [
+			{
+				"id": "yogurt_greco_0",
+				"quantita_g": 170
+			}
+		],
+		"calories_min": 97,
+		"calories_max": 97
+	},
+	{
+		"id": "15",
+		"nomePasto": "Yogurt Greco e Noci",
+		"tipoPasto": [
+			"Colazione"
+		],
+		"etichette": [
+			"latticino",
+			"frutta-secca"
+		],
+		"ingredienti": [
+			{
+				"id": "yogurt_greco_0",
+				"quantita_g": 170
+			},
+			{
+				"id": "noci",
+				"quantita_g": 30
+			}
+		],
+		"calories_min": 293,
+		"calories_max": 293
+	}
+]
