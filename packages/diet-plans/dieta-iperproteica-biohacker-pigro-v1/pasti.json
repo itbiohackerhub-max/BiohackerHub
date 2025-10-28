@@ -24,9 +24,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 429,
-		"calories_max": 537
+		]
 	},
 	{
 		"id": "17",
@@ -43,9 +41,7 @@
 				"id": "banana",
 				"quantita_pezzi": 1
 			}
-		],
-		"calories_min": 107,
-		"calories_max": 107
+		]
 	},
 	{
 		"id": "10",
@@ -66,9 +62,7 @@
 				"id": "sgombro_olio_sgocc",
 				"quantita_g": 100
 			}
-		],
-		"calories_min": 459,
-		"calories_max": 459
+		]
 	},
 	{
 		"id": "39",
@@ -88,9 +82,7 @@
 				"quantita_g": 15,
 				"quantita_pezzi": null
 			}
-		],
-		"calories_min": 203,
-		"calories_max": 203
+		]
 	},
 	{
 		"id": "19",
@@ -108,9 +100,7 @@
 				"quantita_g_min": 175,
 				"quantita_g_max": 200
 			}
-		],
-		"calories_min": 158,
-		"calories_max": 180
+		]
 	},
 	{
 		"id": "14",
@@ -131,9 +121,7 @@
 				"id": "fette_biscottate",
 				"quantita_pezzi": 2
 			}
-		],
-		"calories_min": 217,
-		"calories_max": 262
+		]
 	},
 	{
 		"id": "32",
@@ -164,9 +152,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 545,
-		"calories_max": 545
+		]
 	},
 	{
 		"id": "28",
@@ -196,9 +182,7 @@
 				"id": "lupini",
 				"quantita_g": 150
 			}
-		],
-		"calories_min": 418,
-		"calories_max": 418
+		]
 	},
 	{
 		"id": "30",
@@ -224,9 +208,7 @@
 				"id": "pane",
 				"quantita_g": 80
 			}
-		],
-		"calories_min": 462,
-		"calories_max": 462
+		]
 	},
 	{
 		"id": "8",
@@ -252,9 +234,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 198,
-		"calories_max": 333
+		]
 	},
 	{
 		"id": "33",
@@ -271,9 +251,7 @@
 				"id": "grana_padano_ins",
 				"quantita_pezzi": 1
 			}
-		],
-		"calories_min": 119,
-		"calories_max": 119
+		]
 	},
 	{
 		"id": "21",
@@ -289,9 +267,7 @@
 				"id": "mandorle",
 				"quantita_g": 20
 			}
-		],
-		"calories_min": 122,
-		"calories_max": 122
+		]
 	},
 	{
 		"id": "18",
@@ -307,9 +283,7 @@
 				"id": "noci",
 				"quantita_g": 20
 			}
-		],
-		"calories_min": 131,
-		"calories_max": 131
+		]
 	},
 	{
 		"id": "pane_fiocchidilatte_sardine",
@@ -334,9 +308,7 @@
 				"quantita_g": 85,
 				"quantita_pezzi": null
 			}
-		],
-		"calories_min": 493,
-		"calories_max": 493
+		]
 	},
 	{
 		"id": "37",
@@ -358,9 +330,7 @@
 				"id": "pane",
 				"quantita_g": 50
 			}
-		],
-		"calories_min": 551,
-		"calories_max": 551
+		]
 	},
 	{
 		"id": "23",
@@ -377,9 +347,7 @@
 				"id": "parmigiano",
 				"quantita_g": 20
 			}
-		],
-		"calories_min": 80,
-		"calories_max": 80
+		]
 	},
 	{
 		"id": "12",
@@ -406,9 +374,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 498,
-		"calories_max": 606
+		]
 	},
 	{
 		"id": "4",
@@ -434,9 +400,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 198,
-		"calories_max": 306
+		]
 	},
 	{
 		"id": "24",
@@ -462,9 +426,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 446,
-		"calories_max": 554
+		]
 	},
 	{
 		"id": "27",
@@ -489,9 +451,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 335,
-		"calories_max": 335
+		]
 	},
 	{
 		"id": "11",
@@ -517,9 +477,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 580,
-		"calories_max": 580
+		]
 	},
 	{
 		"id": "7",
@@ -546,9 +504,7 @@
 				"id": "olio_evo",
 				"quantita_g": 0
 			}
-		],
-		"calories_min": 470,
-		"calories_max": 545
+		]
 	},
 	{
 		"id": "13",
@@ -574,9 +530,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 543,
-		"calories_max": 647
+		]
 	},
 	{
 		"id": "3",
@@ -599,9 +553,7 @@
 				"id": "tofu",
 				"quantita_g": 150
 			}
-		],
-		"calories_min": 434,
-		"calories_max": 495
+		]
 	},
 	{
 		"id": "25",
@@ -629,9 +581,7 @@
 				"quantita_g": 40,
 				"opzionale": true
 			}
-		],
-		"calories_min": 198,
-		"calories_max": 198
+		]
 	},
 	{
 		"id": "Proteine_Isolate",
@@ -645,9 +595,7 @@
 				"quantita_g": 30,
 				"quantita_pezzi": null
 			}
-		],
-		"calories_min": 114,
-		"calories_max": 114
+		]
 	},
 	{
 		"id": "34",
@@ -675,9 +623,7 @@
 				"quantita_g_min": 150,
 				"quantita_g_max": 200
 			}
-		],
-		"calories_min": 571,
-		"calories_max": 616
+		]
 	},
 	{
 		"id": "35",
@@ -704,9 +650,7 @@
 				"id": "ricotta",
 				"quantita_g": 100
 			}
-		],
-		"calories_min": 586,
-		"calories_max": 586
+		]
 	},
 	{
 		"id": "36",
@@ -732,9 +676,7 @@
 				"id": "olio_evo",
 				"quantita_g": null
 			}
-		],
-		"calories_min": 467,
-		"calories_max": 467
+		]
 	},
 	{
 		"id": "31",
@@ -761,9 +703,7 @@
 				"id": "riso_integrale",
 				"quantita_g": 70
 			}
-		],
-		"calories_min": 579,
-		"calories_max": 579
+		]
 	},
 	{
 		"id": "26",
@@ -788,9 +728,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 698,
-		"calories_max": 698
+		]
 	},
 	{
 		"id": "29",
@@ -819,9 +757,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 712,
-		"calories_max": 712
+		]
 	},
 	{
 		"id": "5",
@@ -842,9 +778,7 @@
 				"id": "sgombro_olio_sgocc",
 				"quantita_g": 125
 			}
-		],
-		"calories_min": 545,
-		"calories_max": 545
+		]
 	},
 	{
 		"id": "1",
@@ -865,9 +799,7 @@
 				"id": "tonno_olio_sgocc",
 				"quantita_g": 112
 			}
-		],
-		"calories_min": 493,
-		"calories_max": 493
+		]
 	},
 	{
 		"id": "9",
@@ -892,9 +824,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 368,
-		"calories_max": 368
+		]
 	},
 	{
 		"id": "2",
@@ -920,9 +850,7 @@
 				"id": "olio_evo",
 				"quantita_g": 10
 			}
-		],
-		"calories_min": 380,
-		"calories_max": 488
+		]
 	},
 	{
 		"id": "20",
@@ -939,9 +867,7 @@
 				"id": "tofu",
 				"quantita_g": 50
 			}
-		],
-		"calories_min": 63,
-		"calories_max": 63
+		]
 	},
 	{
 		"id": "16",
@@ -962,9 +888,7 @@
 				"id": "banana",
 				"quantita_pezzi": 1
 			}
-		],
-		"calories_min": 221,
-		"calories_max": 221
+		]
 	},
 	{
 		"id": "22",
@@ -980,9 +904,7 @@
 				"id": "yogurt_greco_0",
 				"quantita_g": 170
 			}
-		],
-		"calories_min": 97,
-		"calories_max": 97
+		]
 	},
 	{
 		"id": "15",
@@ -1003,8 +925,6 @@
 				"id": "noci",
 				"quantita_g": 30
 			}
-		],
-		"calories_min": 293,
-		"calories_max": 293
+		]
 	}
 ]
