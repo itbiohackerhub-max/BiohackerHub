@@ -2,10 +2,18 @@
   "rules": [],
   "meals": [
     {
-      "id": "med-caprese", "nomePasto": "Insalata Caprese", "tipoPasto": ["Pranzo"],
+      "id": "med-caprese", "nomePasto": "Insalata Caprese", "tipoPasto": ["Pranzo", "Spuntino Pomeridiano"],
       "ingredienti": [
         { "id": "vegetale-pomodoro", "quantita_g": 200 },
-        { "id": "latticino-mozzarella", "quantita_g": 125 }
+        { "id": "latticino-mozzarella", "quantita_g": 125 },
+        { "id": "condimento-olio-evo", "quantita_g": 10 }
+      ]
+    },
+    {
+      "id": "med-pane-olio", "nomePasto": "Bruschetta Semplice", "tipoPasto": ["Spuntino Mattutino", "Spuntino Pomeridiano"],
+      "ingredienti": [
+        { "id": "cereale-pane-integrale", "quantita_pezzi": 2 },
+        { "id": "condimento-olio-evo", "quantita_g": 5 }
       ]
     }
   ]

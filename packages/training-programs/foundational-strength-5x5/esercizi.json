@@ -1,5 +1,6 @@
 {
   "esercizi": [
-    { "id": "strength-squat", "name": "Squat con Bilanciere", "description": "Esercizio fondamentale per le gambe e il core.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120 }
+    { "id": "strength-squat", "name": "Squat con Bilanciere", "description": "Esercizio fondamentale per le gambe e il core.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120, "defaultWeight": 50 },
+    { "id": "strength-bench-press", "name": "Panca Piana", "description": "Esercizio per il petto, spalle e tricipiti.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120, "defaultWeight": 60 }
   ]
 }

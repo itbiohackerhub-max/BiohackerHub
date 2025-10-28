@@ -1,5 +1,10 @@
 {
-  "id": "mediterranean-starters",
+  "id": "mediterranean-starters-v1",
+  "title": "Starter Pack: Dieta Mediterranea",
+  "description": "Una collezione di pasti sani e ingredienti base per iniziare a seguire uno stile di vita mediterraneo. Ideale per principianti.",
+  "author": "BiohackerHub Community",
+  "version": "1.0.0",
+  "tags": ["dieta", "mediterranea", "principiante", "pasti-veloci"],
   "pastiUrl": "pasti.json",
   "ingredientiUrl": "ingredienti.json",
   "eserciziUrl": null

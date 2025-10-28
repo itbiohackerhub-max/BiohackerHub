@@ -1,5 +1,11 @@
 {
-  "id": "foundational-strength-5x5",
+  "id": "foundational-strength-5x5-v1",
+  "title": "Programma di Forza Fondamentale 5x5",
+  "description": "Un piano di allenamento di 8 settimane basato sulla metodologia 5x5 per aumentare la forza di base con esercizi multiarticolari.",
+  "author": "BiohackerHub Community",
+  "version": "1.0.0",
+  "tags": ["allenamento", "forza", "5x5", "bilanciere", "principiante"],
+  "protocolUrl": null,
   "pastiUrl": null,
   "ingredientiUrl": null,
   "eserciziUrl": "esercizi.json"

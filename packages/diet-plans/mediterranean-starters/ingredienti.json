@@ -1,6 +1,8 @@
 {
   "ingredienti": [
     { "id": "vegetale-pomodoro", "nome": "Pomodoro", "kcal_per_100g": 18 },
-    { "id": "latticino-mozzarella", "nome": "Mozzarella", "kcal_per_100g": 280 }
+    { "id": "latticino-mozzarella", "nome": "Mozzarella", "kcal_per_100g": 280 },
+    { "id": "cereale-pane-integrale", "nome": "Pane Integrale", "kcal_per_100g": 247, "g_per_pezzo": 30 },
+    { "id": "condimento-olio-evo", "nome": "Olio Extra Vergine d'Oliva", "kcal_per_100g": 884 }
   ]
 }
