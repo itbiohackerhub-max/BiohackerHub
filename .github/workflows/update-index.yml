@@ -1,0 +1,51 @@
+# Nome del workflow che apparirà nella sezione "Actions" di GitHub
+name: Update Package Index
+
+# Trigger: questo workflow si attiva ad ogni push sul branch 'main'
+on:
+  push:
+    branches:
+      - main
+
+# I lavori (jobs) che verranno eseguiti
+jobs:
+  build-index:
+    # Esegui questo job su una macchina virtuale Ubuntu
+    runs-on: ubuntu-latest
+
+    # I passaggi (steps) del job
+    steps:
+      # 1. Clona il codice del tuo repository sulla macchina virtuale
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Imposta l'ambiente Node.js (necessario per eseguire lo script)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # 3. Genera il file package-index.json
+      # Questa logica rimane invariata: trova tutti i manifest e crea l'indice.
+      - name: Generate package-index.json
+        run: |
+          echo "🔍 Searching for manifest.json files..."
+          INDEX="{}"
+          find packages -name "manifest.json" -print0 | while IFS= read -r -d $'\0' file; do
+            ID=$(node -p "require('./$file').id")
+            INDEX=$(echo "$INDEX" | jq --arg id "$ID" --arg path "$file" '. + {($id): $path}')
+            echo "  - Found package '$ID' at path '$file'"
+          done
+          echo "$INDEX" | jq '.' > package-index.json
+          echo "✅ package-index.json generated successfully."
+
+      # 4. Esegui il commit del file aggiornato (MODO SEMPLIFICATO)
+      # Questa singola azione controlla se ci sono modifiche e, in caso affermativo,
+      # crea un commit e lo invia al repository. Non è richiesta alcuna configurazione manuale.
+      - name: Commit updated package-index.json
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Messaggio del commit
+          commit_message: "ci: Auto-update package-index.json"
+          # Il file specifico da controllare e committare
+          file_pattern: package-index.json
