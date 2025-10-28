@@ -1,0 +1,6 @@
+{
+  "ingredienti": [
+    { "id": "vegetale-pomodoro", "nome": "Pomodoro", "kcal_per_100g": 18 },
+    { "id": "latticino-mozzarella", "nome": "Mozzarella", "kcal_per_100g": 280 }
+  ]
+}

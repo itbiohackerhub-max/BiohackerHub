@@ -1,0 +1,5 @@
+{
+  "esercizi": [
+    { "id": "strength-squat", "name": "Squat con Bilanciere", "description": "Esercizio fondamentale per le gambe e il core.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120 }
+  ]
+}

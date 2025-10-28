@@ -1,0 +1,12 @@
+{
+  "rules": [],
+  "meals": [
+    {
+      "id": "med-caprese", "nomePasto": "Insalata Caprese", "tipoPasto": ["Pranzo"],
+      "ingredienti": [
+        { "id": "vegetale-pomodoro", "quantita_g": 200 },
+        { "id": "latticino-mozzarella", "quantita_g": 125 }
+      ]
+    }
+  ]
+}
