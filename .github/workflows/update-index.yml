@@ -34,13 +34,14 @@ jobs:
         run: |
           echo "🔍 Searching for manifest.json files..."
           INDEX="{}"
-          find packages -name "manifest.json" -print0 | while IFS= read -r -d $'\0' file; do
-            # ***** INIZIO DELLA CORREZIONE *****
-            # Legge il file e fa il parsing del JSON in modo robusto, invece di usare require()
+          
+          # ***** INIZIO DELLA CORREZIONE *****
+          # Usa "Process Substitution" (< <(...)) per evitare che il ciclo while
+          # venga eseguito in una subshell, preservando il valore della variabile INDEX.
+          while IFS= read -r -d $'\0' file; do
+            # Legge il file e fa il parsing del JSON in modo robusto
             ID=$(node -p "JSON.parse(require('fs').readFileSync('$file', 'utf8')).id")
-            # ***** FINE DELLA CORREZIONE *****
             
-            # Controlla se l'ID è stato estratto correttamente
             if [ -z "$ID" ]; then
               echo "⚠️ Warning: Could not extract 'id' from $file. Skipping."
               continue
@@ -48,7 +49,9 @@ jobs:
 
             INDEX=$(echo "$INDEX" | jq --arg id "$ID" --arg path "$file" '. + {($id): $path}')
             echo "  - Found package '$ID' at path '$file'"
-          done
+          done < <(find packages -name "manifest.json" -print0)
+          # ***** FINE DELLA CORREZIONE *****
+
           echo "$INDEX" | jq '.' > package-index.json
           echo "✅ package-index.json generated successfully."
           echo "--- Generated Content ---"
