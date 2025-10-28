@@ -13,12 +13,9 @@ jobs:
     # Esegui questo job su una macchina virtuale Ubuntu
     runs-on: ubuntu-latest
 
-    # ***** INIZIO DELLA CORREZIONE *****
     # Concedi a questo job il permesso di scrivere nel repository
-    # per poter fare il commit del file aggiornato.
     permissions:
       contents: write
-    # ***** FINE DELLA CORREZIONE *****
 
     # I passaggi (steps) del job
     steps:
@@ -38,12 +35,25 @@ jobs:
           echo "🔍 Searching for manifest.json files..."
           INDEX="{}"
           find packages -name "manifest.json" -print0 | while IFS= read -r -d $'\0' file; do
-            ID=$(node -p "require('./$file').id")
+            # ***** INIZIO DELLA CORREZIONE *****
+            # Legge il file e fa il parsing del JSON in modo robusto, invece di usare require()
+            ID=$(node -p "JSON.parse(require('fs').readFileSync('$file', 'utf8')).id")
+            # ***** FINE DELLA CORREZIONE *****
+            
+            # Controlla se l'ID è stato estratto correttamente
+            if [ -z "$ID" ]; then
+              echo "⚠️ Warning: Could not extract 'id' from $file. Skipping."
+              continue
+            fi
+
             INDEX=$(echo "$INDEX" | jq --arg id "$ID" --arg path "$file" '. + {($id): $path}')
             echo "  - Found package '$ID' at path '$file'"
           done
           echo "$INDEX" | jq '.' > package-index.json
           echo "✅ package-index.json generated successfully."
+          echo "--- Generated Content ---"
+          cat package-index.json
+          echo "-------------------------"
 
       # 4. Esegui il commit del file aggiornato
       - name: Commit updated package-index.json
