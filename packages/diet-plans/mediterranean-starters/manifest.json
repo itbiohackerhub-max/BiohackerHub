@@ -9,5 +9,6 @@
   "protocolUrl": null,
   "pastiUrl": "pasti.json",
   "ingredientiUrl": "ingredienti.json",
-  "eserciziUrl": null
+  "eserciziUrl": null,
+  "macroTargets": null
 }
