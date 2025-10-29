@@ -28,11 +28,28 @@ Il sistema si basa su tre componenti disaccoppiati:
               "author": "Nome dell'Autore",
               "version": "1.0.0",
               "tags": ["dieta", "principiante"],
-              "image": "[https://url.assoluto/per/immagine.jpg](https://url.assoluto/per/immagine.jpg)",
-              "protocolUrl": "protocol.md",
-              "pastiUrl": "pasti.json",
-              "ingredientiUrl": "ingredienti.json",
-              "eserciziUrl": null
+              "image": "https://url.assoluto/per/immagine.jpg",
+              "protocolUrl": "protocol.md", // Opzionale
+              "pastiUrl": "pasti.json", // Opzionale, null se non presente
+              "ingredientiUrl": "ingredienti.json", // Opzionale, null se non presente
+              "eserciziUrl": "esercizi.json", // Opzionale, null se non presente
+              "macroTargets": { // Opzionale, null se non è un piano dietetico
+                "rationale": "Spiegazione della strategia nutrizionale del protocollo.",
+                "caloric_range": {
+                  "min_kcal": 1800,
+                  "max_kcal": 1900
+                },
+                "protein_target": {
+                  "primary_driver": true, // Indica se il protocollo è guidato dalle proteine
+                  "g_per_kg_bodyweight": 1.9
+                },
+                "macronutrient_distribution_approx": {
+                  "description": "Distribuzione calorica approssimativa.",
+                  "protein_percent": 35,
+                  "carb_percent": 35,
+                  "fat_percent": 30
+                }
+              }
             }
 
 3.  **Aggiungi i File di Contenuto**: Nella stessa cartella, crea i file a cui il manifest fa riferimento.
