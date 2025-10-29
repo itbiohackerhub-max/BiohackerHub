@@ -1,8 +1,13 @@
 {
   "id": "dieta-iperproteica-biohacker-pigro-v1",
-  "type": "diet-plan",
+  "title": "Dieta Iperproteica del Biohacker Pigro",
+  "description": "Un protocollo nutrizionale da 1600-1800 kcal finalizzato alla ricomposizione corporea, progettato per la massima efficienza con il minimo sforzo.",
+  "author": "Aldo",
   "version": "1.0.0",
-  "name": "Dieta Iperproteica del Biohacker Pigro",
-  "description": "Un protocollo nutrizionale da 1600-1800 kcal finalizzato alla ricomposizione corporea, progettato per la massima efficienza con il minimo sforzo. Si basa su pasti semplici e veloci, componibili acquistando ingredienti pronti o che richiedono una preparazione minima, ideale per chi ha poco tempo o non ama cucinare. L'obiettivo è massimizzare l'apporto proteico per supportare l'allenamento e la massa muscolare.",
-  "author": "Aldo"
+  "tags": ["dieta", "iperproteica", "ricomposizione-corporea", "pasti-veloci"],
+  "image": "https://images.unsplash.com/photo-1550927402-6bbb572457aa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600",
+  "protocolUrl": "protocol.md",
+  "pastiUrl": "pasti.json",
+  "ingredientiUrl": "ingredienti.json",
+  "eserciziUrl": null
 }
