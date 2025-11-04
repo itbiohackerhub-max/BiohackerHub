@@ -4,929 +4,500 @@
 		{
 			"id": "6",
 			"nomePasto": "B. di Soia+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"contiene-soia",
-				"vegetale",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["contiene-soia", "vegetale", "pane"],
 			"ingredienti": [
-				{
-					"id": "b_soia_secca",
-					"quantita_g": 70
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 80
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "b_soia_secca", "quantita_g": 70},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 80},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "17",
 			"nomePasto": "Banana",
-			"tipoPasto": [
-				"Spuntino Mattutino",
-				"Spuntino Pomeridiano"
-			],
-			"etichette": [
-				"frutta"
-			],
+			"tipoPasto": ["Spuntino Mattutino", "Spuntino Pomeridiano"],
+			"etichette": ["frutta"],
 			"ingredienti": [
-				{
-					"id": "banana",
-					"quantita_pezzi": 1
-				}
+				{"id": "banana", "quantita_pezzi": 1}
 			]
 		},
 		{
 			"id": "10",
 			"nomePasto": "Fagioli+Sgombro",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"legume"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["pesce", "legume"],
 			"ingredienti": [
-				{
-					"id": "fagioli",
-					"quantita_g": 240
-				},
-				{
-					"id": "sgombro_olio_sgocc",
-					"quantita_g": 100
-				}
+				{"id": "fagioli", "quantita_g": 240},
+				{"id": "sgombro_olio_sgocc", "quantita_g": 100}
 			]
 		},
 		{
 			"id": "39",
 			"nomePasto": "Fiocchi + Noci",
-			"tipoPasto": [
-				"Spuntino Mattutino",
-				"Spuntino Pomeridiano"
-			],
+			"tipoPasto": ["Spuntino Mattutino", "Spuntino Pomeridiano"],
 			"ingredienti": [
-				{
-					"id": "fiocchi_latte_light",
-					"quantita_g": 150,
-					"quantita_pezzi": null
-				},
-				{
-					"id": "noci",
-					"quantita_g": 15,
-					"quantita_pezzi": null
-				}
+				{"id": "fiocchi_latte_light", "quantita_g": 150, "quantita_pezzi": null},
+				{"id": "noci", "quantita_g": 15, "quantita_pezzi": null}
 			]
 		},
 		{
 			"id": "19",
 			"nomePasto": "Fiocchi di Latte",
-			"tipoPasto": [
-				"Spuntino Pomeridiano",
-				"Pre-Nanna"
-			],
-			"etichette": [
-				"latticino"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano", "Pre-Nanna"],
+			"etichette": ["latticino"],
 			"ingredienti": [
-				{
-					"id": "fiocchi_latte",
-					"quantita_g_min": 175,
-					"quantita_g_max": 200
-				}
+				{"id": "fiocchi_latte", "quantita_g_min": 175, "quantita_g_max": 200}
 			]
 		},
 		{
 			"id": "14",
 			"nomePasto": "Fiocchi di Latte e Fette Biscottate",
-			"tipoPasto": [
-				"Colazione"
-			],
-			"etichette": [
-				"latticino"
-			],
+			"tipoPasto": ["Colazione"],
+			"etichette": ["latticino"],
 			"ingredienti": [
-				{
-					"id": "fiocchi_latte",
-					"quantita_g_min": 150,
-					"quantita_g_max": 200
-				},
-				{
-					"id": "fette_biscottate",
-					"quantita_pezzi": 2
-				}
+				{"id": "fiocchi_latte", "quantita_g_min": 150, "quantita_g_max": 200},
+				{"id": "fette_biscottate", "quantita_pezzi": 2}
 			]
 		},
 		{
 			"id": "32",
 			"nomePasto": "Frittata di Albumi con Piselli e Pane",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"uova",
-				"legume",
-				"pane"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["uova", "legume", "pane"],
 			"ingredienti": [
-				{
-					"id": "albume_uovo",
-					"quantita_g": 250
-				},
-				{
-					"id": "piselli_scatola",
-					"quantita_g": 240
-				},
-				{
-					"id": "pane",
-					"quantita_g": 60
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "albume_uovo", "quantita_g": 250},
+				{"id": "piselli_scatola", "quantita_g": 240},
+				{"id": "pane", "quantita_g": 60},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "28",
 			"nomePasto": "Frittata di Albumi e Lupini+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"uova",
-				"legume",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["uova", "legume", "pane"],
 			"ingredienti": [
-				{
-					"id": "albume_uovo",
-					"quantita_g": 250
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": null
-				},
-				{
-					"id": "pane",
-					"quantita_g": 40
-				},
-				{
-					"id": "lupini",
-					"quantita_g": 150
-				}
+				{"id": "albume_uovo", "quantita_g": 250},
+				{"id": "olio_evo", "quantita_g": null},
+				{"id": "pane", "quantita_g": 40},
+				{"id": "lupini", "quantita_g": 150}
 			]
 		},
 		{
 			"id": "30",
 			"nomePasto": "Frittata di Albumi+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"uova",
-				"legume",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["uova", "legume", "pane"],
 			"ingredienti": [
-				{
-					"id": "albume_uovo",
-					"quantita_g": 300
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				},
-				{
-					"id": "pane",
-					"quantita_g": 80
-				}
+				{"id": "albume_uovo", "quantita_g": 300},
+				{"id": "olio_evo", "quantita_g": 10},
+				{"id": "pane", "quantita_g": 80}
 			]
 		},
 		{
 			"id": "8",
 			"nomePasto": "Frittata+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"uova",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["uova", "pane"],
 			"ingredienti": [
-				{
-					"id": "uova",
-					"quantita_pezzi": 3
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 90
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "uova", "quantita_pezzi": 3},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 90},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "33",
 			"nomePasto": "Grana Padano",
-			"tipoPasto": [
-				"Spuntino Pomeridiano",
-				"Spuntino Mattutino"
-			],
-			"etichette": [
-				"latticino"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano", "Spuntino Mattutino"],
+			"etichette": ["latticino"],
 			"ingredienti": [
-				{
-					"id": "grana_padano_ins",
-					"quantita_pezzi": 1
-				}
+				{"id": "grana_padano_ins", "quantita_pezzi": 1}
 			]
 		},
 		{
 			"id": "21",
 			"nomePasto": "Mandorle",
-			"tipoPasto": [
-				"Spuntino Pomeridiano"
-			],
-			"etichette": [
-				"frutta-secca"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano"],
+			"etichette": ["frutta-secca"],
 			"ingredienti": [
-				{
-					"id": "mandorle",
-					"quantita_g": 20
-				}
+				{"id": "mandorle", "quantita_g": 20}
 			]
 		},
 		{
 			"id": "18",
 			"nomePasto": "Noci",
-			"tipoPasto": [
-				"Spuntino Pomeridiano"
-			],
-			"etichette": [
-				"frutta-secca"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano"],
+			"etichette": ["frutta-secca"],
 			"ingredienti": [
-				{
-					"id": "noci",
-					"quantita_g": 20
-				}
+				{"id": "noci", "quantita_g": 20}
 			]
 		},
 		{
 			"id": "pane_fiocchidilatte_sardine",
 			"nomePasto": "Pane con Fiocchi e Sardine",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
 			"ingredienti": [
-				{
-					"id": "fiocchi_latte_light",
-					"quantita_g": 150,
-					"quantita_pezzi": null
-				},
-				{
-					"id": "pane",
-					"quantita_g": 85,
-					"quantita_pezzi": null
-				},
-				{
-					"id": "sardine_olio_sgocc",
-					"quantita_g": 85,
-					"quantita_pezzi": null
-				}
+				{"id": "fiocchi_latte_light", "quantita_g": 150, "quantita_pezzi": null},
+				{"id": "pane", "quantita_g": 85, "quantita_pezzi": null},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85, "quantita_pezzi": null}
 			]
 		},
 		{
 			"id": "37",
 			"nomePasto": "Pane e Salmone",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"pane"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["pesce", "pane"],
 			"ingredienti": [
-				{
-					"id": "salmone",
-					"quantita_g": 200
-				},
-				{
-					"id": "pane",
-					"quantita_g": 50
-				}
+				{"id": "salmone", "quantita_g": 200},
+				{"id": "pane", "quantita_g": 50}
 			]
 		},
 		{
 			"id": "23",
 			"nomePasto": "Parmigiano",
-			"tipoPasto": [
-				"Spuntino Pomeridiano",
-				"Spuntino Mattutino"
-			],
-			"etichette": [
-				"latticino"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano", "Spuntino Mattutino"],
+			"etichette": ["latticino"],
 			"ingredienti": [
-				{
-					"id": "parmigiano",
-					"quantita_g": 20
-				}
+				{"id": "parmigiano", "quantita_g": 20}
 			]
 		},
 		{
 			"id": "12",
 			"nomePasto": "Paté di Lupini+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"vegetale",
-				"legume",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["vegetale", "legume", "pane"],
 			"ingredienti": [
-				{
-					"id": "lupini",
-					"quantita_g": 250
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 80
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "lupini", "quantita_g": 250},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 80},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "4",
 			"nomePasto": "Pesce Bianco+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["pesce", "pane"],
 			"ingredienti": [
-				{
-					"id": "pesce_bianco",
-					"quantita_g": 200
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 80
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "pesce_bianco", "quantita_g": 200},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 80},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "24",
 			"nomePasto": "Petto di Pollo+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"carne",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["carne", "pane"],
 			"ingredienti": [
-				{
-					"id": "petto_pollo",
-					"quantita_g": 150
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 80
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "petto_pollo", "quantita_g": 150},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 80},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "27",
 			"nomePasto": "Piadina+Frittata",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"uova",
-				"piadina"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["uova", "piadina"],
 			"ingredienti": [
-				{
-					"id": "piadina",
-					"quantita_g": 80
-				},
-				{
-					"id": "uova",
-					"quantita_pezzi": 3
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "uova", "quantita_pezzi": 3},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "11",
 			"nomePasto": "Piadina+P.Fagioli",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"vegetale",
-				"legume",
-				"piadina"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["vegetale", "legume", "piadina"],
 			"ingredienti": [
-				{
-					"id": "piadina",
-					"quantita_g": 80
-				},
-				{
-					"id": "fagioli",
-					"quantita_g": 240
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "fagioli", "quantita_g": 240},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "7",
 			"nomePasto": "Piadina+Ricotta",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"latticino",
-				"piadina"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["latticino", "piadina"],
 			"ingredienti": [
-				{
-					"id": "piadina",
-					"quantita_g": 80
-				},
-				{
-					"id": "ricotta",
-					"quantita_g_min": 150,
-					"quantita_g_max": 200
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 0
-				}
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "ricotta", "quantita_g_min": 150, "quantita_g_max": 200},
+				{"id": "olio_evo", "quantita_g": 0}
 			]
 		},
 		{
 			"id": "13",
 			"nomePasto": "Piadina+Salmone",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"pesce",
-				"piadina"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["pesce", "piadina"],
 			"ingredienti": [
-				{
-					"id": "piadina",
-					"quantita_g": 80
-				},
-				{
-					"id": "salmone",
-					"quantita_g_min": 100,
-					"quantita_g_max": 150
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "salmone", "quantita_g_min": 100, "quantita_g_max": 150},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "3",
 			"nomePasto": "Piadina+Tofu",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"contiene-soia",
-				"vegetale",
-				"piadina"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["contiene-soia", "vegetale", "piadina"],
 			"ingredienti": [
-				{
-					"id": "piadina",
-					"quantita_g_min": 80,
-					"quantita_g_max": 100
-				},
-				{
-					"id": "tofu",
-					"quantita_g": 150
-				}
+				{"id": "piadina", "quantita_g_min": 80, "quantita_g_max": 100},
+				{"id": "tofu", "quantita_g": 150}
 			]
 		},
 		{
 			"id": "25",
 			"nomePasto": "Pollo Vegetale+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"vegetale",
-				"pane",
-				"legume"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["vegetale", "pane", "legume"],
 			"recipeId": "00001",
 			"ingredienti": [
-				{
-					"id": "prodotto_ricetta_pollo_vegetale_v4_2",
-					"quantita_pezzi": 1
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				},
-				{
-					"id": "pane",
-					"quantita_g": 40,
-					"opzionale": true
-				}
+				{"id": "prodotto_ricetta_pollo_vegetale_v4_2", "quantita_pezzi": 1},
+				{"id": "olio_evo", "quantita_g": 10},
+				{"id": "pane", "quantita_g": 40, "opzionale": true}
 			]
 		},
 		{
 			"id": "Proteine_Isolate",
 			"nomePasto": "Proteine Isolate",
-			"tipoPasto": [
-				"Post-Workout"
-			],
+			"tipoPasto": ["Post-Workout"],
 			"ingredienti": [
-				{
-					"id": "whey",
-					"quantita_g": 30,
-					"quantita_pezzi": null
-				}
+				{"id": "whey", "quantita_g": 30, "quantita_pezzi": null}
 			]
 		},
 		{
 			"id": "34",
 			"nomePasto": "Riso con Sardine e Fiocchi di Latte",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"latticino",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["pesce", "latticino", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "sardine_olio_sgocc",
-					"quantita_g": 85
-				},
-				{
-					"id": "fiocchi_latte",
-					"quantita_g_min": 150,
-					"quantita_g_max": 200
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85},
+				{"id": "fiocchi_latte", "quantita_g_min": 150, "quantita_g_max": 200}
 			]
 		},
 		{
 			"id": "35",
 			"nomePasto": "Riso con Sardine e Ricotta",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"latticino",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["pesce", "latticino", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "sardine_olio_sgocc",
-					"quantita_g": 85
-				},
-				{
-					"id": "ricotta",
-					"quantita_g": 100
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85},
+				{"id": "ricotta", "quantita_g": 100}
 			]
 		},
 		{
 			"id": "36",
 			"nomePasto": "Riso e Tofu",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"soia",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["soia", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "tofu",
-					"quantita_g": 150
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": null
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "tofu", "quantita_g": 150},
+				{"id": "olio_evo", "quantita_g": null}
 			]
 		},
 		{
 			"id": "31",
 			"nomePasto": "Riso Integrale con Sgombro e Ricotta",
-			"tipoPasto": [
-				"Pranzo",
-				"Cena"
-			],
-			"etichette": [
-				"pesce",
-				"latticino",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["pesce", "latticino", "riso"],
 			"ingredienti": [
-				{
-					"id": "sgombro_olio_sgocc",
-					"quantita_g": 108
-				},
-				{
-					"id": "ricotta_light",
-					"quantita_g": 100
-				},
-				{
-					"id": "riso_integrale",
-					"quantita_g": 70
-				}
+				{"id": "sgombro_olio_sgocc", "quantita_g": 108},
+				{"id": "ricotta_light", "quantita_g": 100},
+				{"id": "riso_integrale", "quantita_g": 70}
 			]
 		},
 		{
 			"id": "26",
 			"nomePasto": "Riso+Petto di Pollo",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"carne",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["carne", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "petto_pollo",
-					"quantita_g": 200
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "petto_pollo", "quantita_g": 200},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "29",
 			"nomePasto": "Riso+Ricotta e Parmigiano",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"latticino",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["latticino", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "ricotta",
-					"quantita_g": 150
-				},
-				{
-					"id": "parmigiano",
-					"quantita_g": 30
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "ricotta", "quantita_g": 150},
+				{"id": "parmigiano", "quantita_g": 30},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "5",
 			"nomePasto": "Riso+Sgombro all'Olio",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"pesce",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["pesce", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "sgombro_olio_sgocc",
-					"quantita_g": 125
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "sgombro_olio_sgocc", "quantita_g": 125}
 			]
 		},
 		{
 			"id": "1",
 			"nomePasto": "Riso+Tonno all'Olio",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"pesce",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["pesce", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "tonno_olio_sgocc",
-					"quantita_g": 112
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "tonno_olio_sgocc", "quantita_g": 112}
 			]
 		},
 		{
 			"id": "9",
 			"nomePasto": "Riso+Uova",
-			"tipoPasto": [
-				"Pranzo"
-			],
-			"etichette": [
-				"uova",
-				"riso"
-			],
+			"tipoPasto": ["Pranzo"],
+			"etichette": ["uova", "riso"],
 			"ingredienti": [
-				{
-					"id": "riso",
-					"quantita_g": 80
-				},
-				{
-					"id": "uova",
-					"quantita_pezzi": 3
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "riso", "quantita_g": 80},
+				{"id": "uova", "quantita_pezzi": 3},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "2",
 			"nomePasto": "Seitan+Pane",
-			"tipoPasto": [
-				"Cena"
-			],
-			"etichette": [
-				"vegetale",
-				"pane"
-			],
+			"tipoPasto": ["Cena"],
+			"etichette": ["vegetale", "pane"],
 			"ingredienti": [
-				{
-					"id": "seitan",
-					"quantita_g": 150
-				},
-				{
-					"id": "pane",
-					"quantita_g_min": 40,
-					"quantita_g_max": 80
-				},
-				{
-					"id": "olio_evo",
-					"quantita_g": 10
-				}
+				{"id": "seitan", "quantita_g": 150},
+				{"id": "pane", "quantita_g_min": 40, "quantita_g_max": 80},
+				{"id": "olio_evo", "quantita_g": 10}
 			]
 		},
 		{
 			"id": "20",
 			"nomePasto": "Tofu",
-			"tipoPasto": [
-				"Spuntino Pomeridiano"
-			],
-			"etichette": [
-				"contiene-soia",
-				"vegetale"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano"],
+			"etichette": ["contiene-soia", "vegetale"],
 			"ingredienti": [
-				{
-					"id": "tofu",
-					"quantita_g": 50
-				}
+				{"id": "tofu", "quantita_g": 50}
 			]
 		},
 		{
 			"id": "16",
 			"nomePasto": "Whey e Banana",
-			"tipoPasto": [
-				"Colazione"
-			],
-			"etichette": [
-				"proteine-polvere",
-				"frutta"
-			],
+			"tipoPasto": ["Colazione"],
+			"etichette": ["proteine-polvere", "frutta"],
 			"ingredienti": [
-				{
-					"id": "whey",
-					"quantita_g": 30
-				},
-				{
-					"id": "banana",
-					"quantita_pezzi": 1
-				}
+				{"id": "whey", "quantita_g": 30},
+				{"id": "banana", "quantita_pezzi": 1}
 			]
 		},
 		{
 			"id": "22",
 			"nomePasto": "Yogurt Greco 0%",
-			"tipoPasto": [
-				"Spuntino Pomeridiano"
-			],
-			"etichette": [
-				"latticino"
-			],
+			"tipoPasto": ["Spuntino Pomeridiano"],
+			"etichette": ["latticino"],
 			"ingredienti": [
-				{
-					"id": "yogurt_greco_0",
-					"quantita_g": 170
-				}
+				{"id": "yogurt_greco_0", "quantita_g": 170}
 			]
 		},
 		{
 			"id": "15",
 			"nomePasto": "Yogurt Greco e Noci",
-			"tipoPasto": [
-				"Colazione"
-			],
-			"etichette": [
-				"latticino",
-				"frutta-secca"
-			],
+			"tipoPasto": ["Colazione"],
+			"etichette": ["latticino", "frutta-secca"],
 			"ingredienti": [
-				{
-					"id": "yogurt_greco_0",
-					"quantita_g": 170
-				},
-				{
-					"id": "noci",
-					"quantita_g": 30
-				}
+				{"id": "yogurt_greco_0", "quantita_g": 170},
+				{"id": "noci", "quantita_g": 30}
+			]
+		},
+		{
+			"id": "colazione_porridge_1",
+			"nomePasto": "Porridge Avena e Albumi",
+			"tipoPasto": ["Colazione"],
+			"etichette": ["avena", "uova", "alto-volume"],
+			"ingredienti": [
+				{"id": "avena_fiocchi", "quantita_g": 40},
+				{"id": "albume_uovo", "quantita_g": 250}
+			]
+		},
+		{
+			"id": "colazione_porridge_2",
+			"nomePasto": "Porridge Avena, Yogurt e Noci",
+			"tipoPasto": ["Colazione"],
+			"etichette": ["avena", "latticino", "frutta-secca"],
+			"ingredienti": [
+				{"id": "avena_fiocchi", "quantita_g": 40},
+				{"id": "yogurt_greco_0", "quantita_g": 150},
+				{"id": "noci", "quantita_g": 10}
+			]
+		},
+		{
+			"id": "spuntino_banana_cioccolato",
+			"nomePasto": "Banana e Cioccolato Fondente",
+			"tipoPasto": ["Spuntino Mattutino", "Spuntino Pomeridiano"],
+			"etichette": ["frutta", "cioccolato", "bilanciato"],
+			"ingredienti": [
+				{"id": "banana", "quantita_pezzi": 1},
+				{"id": "cioccolato_fondente_90", "quantita_g": 10}
+			]
+		},
+		{
+			"id": "piadina_fiocchi_olio",
+			"nomePasto": "Piadina, Fiocchi di Latte e Olio",
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["piadina", "latticino"],
+			"ingredienti": [
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "fiocchi_latte_light", "quantita_g": 150},
+				{"id": "olio_evo", "quantita_g": 10}
+			]
+		},
+		{
+			"id": "piadina_sarde",
+			"nomePasto": "Piadina e Sardine",
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["piadina", "pesce"],
+			"ingredienti": [
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85}
+			]
+		},
+		{
+			"id": "piadina_fiocchi_sarde",
+			"nomePasto": "Piadina, Fiocchi e Sardine",
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["piadina", "latticino", "pesce"],
+			"ingredienti": [
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "fiocchi_latte_light", "quantita_g": 150},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85}
+			]
+		},
+		{
+			"id": "piadina_sarde_parmigiano",
+			"nomePasto": "Piadina, Sardine e Parmigiano",
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["piadina", "pesce", "latticino"],
+			"ingredienti": [
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "sardine_olio_sgocc", "quantita_g": 85},
+				{"id": "parmigiano", "quantita_g": 30}
+			]
+		},
+		{
+			"id": "piadina_fiocchi_parmigiano",
+			"nomePasto": "Piadina, Fiocchi e Parmigiano",
+			"tipoPasto": ["Pranzo", "Cena"],
+			"etichette": ["piadina", "latticino"],
+			"ingredienti": [
+				{"id": "piadina", "quantita_g": 80},
+				{"id": "fiocchi_latte_light", "quantita_g": 150},
+				{"id": "parmigiano", "quantita_g": 30}
 			]
 		}
 	]
