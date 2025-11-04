@@ -519,6 +519,26 @@
 		            "quantita_g": 90
 		        }
 		    ]
+		},
+		{
+		    "id": "riso_albumi_grana_mantecato",
+		    "nomePasto": "Riso Mantecato con Albumi e Grana",
+		    "tipoPasto": ["Pranzo", "Cena"],
+		    "etichette": ["riso", "uova", "latticino", "high-protein", "cuociriso"],
+		    "ingredienti": [
+		        {
+		            "id": "riso",
+		            "quantita_g": 80
+		        },
+		        {
+		            "id": "albume_uovo",
+		            "quantita_g": 250
+		        },
+		        {
+		            "id": "parmigiano",
+		            "quantita_g": 30
+		        }
+		    ]
 		}
 	]
 }
