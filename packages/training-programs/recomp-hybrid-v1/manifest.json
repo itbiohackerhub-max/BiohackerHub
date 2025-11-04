@@ -1,0 +1,21 @@
+{
+	"id": "recomp-hybrid-v1",
+	"title": "Programma Ibrido di Ricomposizione",
+	"description": "Protocollo di allenamento ibrido (2x Resistenza, 3x Corsa) ottimizzato per la ricomposizione corporea (ossidazione dei grassi e mantenimento FFM) in condizioni di recupero limitato.",
+	"author": "The Performance & Body Composition Strategist v4",
+	"version": "1.0.0",
+	"tags": [
+		"ricomposizione-corporea",
+		"ibrido",
+		"corsa",
+		"forza",
+		"2x-settimana",
+		"total-body"
+	],
+	"image": null,
+	"protocolUrl": "protocol.md",
+	"pastiUrl": null,
+	"ingredientiUrl": null,
+	"eserciziUrl": "esercizi.json",
+	"macroTargets": null
+}
