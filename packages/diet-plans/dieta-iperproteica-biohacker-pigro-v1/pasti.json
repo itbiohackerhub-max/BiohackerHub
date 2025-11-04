@@ -499,6 +499,26 @@
 				{"id": "fiocchi_latte_light", "quantita_g": 150},
 				{"id": "parmigiano", "quantita_g": 30}
 			]
+		},
+		{
+		    "id": "frittata_albumi_grana_pane",
+		    "nomePasto": "Panino con frittata di Albumi e Grana",
+		    "tipoPasto": ["Pranzo", "Cena"],
+		    "etichette": ["uova", "latticino", "pane", "high-protein"],
+		    "ingredienti": [
+		        {
+		            "id": "albume_uovo",
+		            "quantita_g": 250
+		        },
+		        {
+		            "id": "parmigiano",
+		            "quantita_g": 30
+		        },
+		        {
+		            "id": "pane",
+		            "quantita_g": 90
+		        }
+		    ]
 		}
 	]
 }
