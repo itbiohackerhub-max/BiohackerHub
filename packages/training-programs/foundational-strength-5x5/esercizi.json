@@ -1,6 +1,55 @@
 {
   "esercizi": [
-    { "id": "strength-squat", "name": "Squat con Bilanciere", "description": "Esercizio fondamentale per le gambe e il core.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120, "defaultWeight": 50 },
-    { "id": "strength-bench-press", "name": "Panca Piana", "description": "Esercizio per il petto, spalle e tricipiti.", "execution_mode": "manual_reps", "defaultSets": 5, "defaultReps": 5, "defaultRest": 120, "defaultWeight": 60 }
+    {
+      "id": "squat_bb_logging",
+      "name": "Squat con Bilanciere (Logging)",
+      "description": "Esercizio fondamentale per le gambe. Registra reps e peso.",
+      "type": "reps",
+      "execution_mode": "logging",
+      "defaultSets": 5,
+      "defaultRepsMin": 3,
+      "defaultRepsMax": 5,
+      "defaultWeight": 80,
+      "defaultRest": 180,
+      "defaultTempo": null,
+      "defaultDuration": null,
+      "met_value": 5.0
+    },
+    {
+      "id": "bench_press_guided",
+      "name": "Panca Piana (Guidata)",
+      "description": "Esercizio guidato con tempo controllato per il petto.",
+      "type": "reps",
+      "execution_mode": "guided_tempo",
+      "defaultSets": 3,
+      "defaultReps": 10,
+      "defaultRepsMin": null,
+      "defaultRepsMax": null,
+      "defaultWeight": 60,
+      "defaultRest": 90,
+      "defaultTempo": {
+        "up": 1,
+        "hold": 0,
+        "down": 3
+      },
+      "defaultDuration": null,
+      "met_value": 5.0
+    },
+    {
+      "id": "plank_guided",
+      "name": "Plank (Guidato)",
+      "description": "Esercizio isometrico guidato per il core.",
+      "type": "time",
+      "execution_mode": "guided_static",
+      "defaultSets": 3,
+      "defaultReps": null,
+      "defaultRepsMin": null,
+      "defaultRepsMax": null,
+      "defaultWeight": 0,
+      "defaultRest": 60,
+      "defaultTempo": null,
+      "defaultDuration": 45,
+      "met_value": 2.8
+    }
   ]
 }
