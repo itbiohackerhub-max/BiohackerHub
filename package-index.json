@@ -1,5 +1,6 @@
 {
   "foundational-strength-5x5-v1": "packages/training-programs/foundational-strength-5x5/manifest.json",
+  "recomp-hybrid-v1": "packages/training-programs/recomp-hybrid-v1/manifest.json",
   "mediterranean-starters-v1": "packages/diet-plans/mediterranean-starters/manifest.json",
   "dieta-iperproteica-biohacker-pigro-v1": "packages/diet-plans/dieta-iperproteica-biohacker-pigro-v1/manifest.json"
 }
