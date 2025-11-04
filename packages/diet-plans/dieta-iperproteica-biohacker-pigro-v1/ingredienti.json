@@ -177,6 +177,18 @@
 			"id": "yogurt_greco_0",
 			"nome": "Yogurt Greco 0%",
 			"kcal_per_100g": 57
+		},
+		{
+			"id": "avena_fiocchi",
+			"nome": "Fiocchi di Avena",
+			"kcal_per_100g": 375,
+			"fonte": "standard"
+		},
+		{
+			"id": "cioccolato_fondente_90",
+			"nome": "Cioccolato Fondente 90%",
+			"kcal_per_100g": 624,
+			"fonte": "utente"
 		}
 	]
 }
