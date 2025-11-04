@@ -1,180 +1,182 @@
-[
-	{
-		"id": "albume_uovo",
-		"nome": "Albume d'Uovo",
-		"kcal_per_100g": 52
-	},
-	{
-		"id": "banana",
-		"nome": "Banana",
-		"kcal_per_100g": 89,
-		"g_per_pezzo": 120
-	},
-	{
-		"id": "b_soia_secca",
-		"nome": "Bocconcini di Soia (secca)",
-		"kcal_per_100g": 330
-	},
-	{
-		"id": "fagioli",
-		"nome": "Fagioli",
-		"kcal_per_100g": 102
-	},
-	{
-		"id": "fette_biscottate",
-		"nome": "Fette Biscottate",
-		"kcal_per_100g": 410,
-		"g_per_pezzo": 10,
-		"fonte": "utente"
-	},
-	{
-		"id": "fiocchi_latte",
-		"nome": "Fiocchi di Latte",
-		"kcal_per_100g": 90
-	},
-	{
-		"id": "fiocchi_latte_light",
-		"nome": "Fiocchi di latte light",
-		"kcal_per_100g": 70,
-		"fonte": "utente"
-	},
-	{
-		"id": "grana_padano_ins",
-		"nome": "Grana Padano (IN'S)",
-		"kcal_per_100g": 398,
-		"g_per_pezzo": 30,
-		"fonte": "utente"
-	},
-	{
-		"id": "lupini",
-		"nome": "Lupini",
-		"kcal_per_100g": 120
-	},
-	{
-		"id": "mandorle",
-		"nome": "Mandorle",
-		"kcal_per_100g": 609
-	},
-	{
-		"id": "noci",
-		"nome": "Noci",
-		"kcal_per_100g": 654,
-		"g_per_pezzo": null
-	},
-	{
-		"id": "olio_evo",
-		"nome": "Olio Extra Vergine di Oliva",
-		"kcal_per_100g": 900
-	},
-	{
-		"id": "orata",
-		"nome": "orata",
-		"kcal_per_100g": 159
-	},
-	{
-		"id": "pane",
-		"nome": "Pane",
-		"kcal_per_100g": 270
-	},
-	{
-		"id": "parmigiano",
-		"nome": "Parmigiano",
-		"kcal_per_100g": 398
-	},
-	{
-		"id": "petto_pollo",
-		"nome": "Petto di Pollo",
-		"kcal_per_100g": 165
-	},
-	{
-		"id": "piadina",
-		"nome": "Piadina",
-		"kcal_per_100g": 306,
-		"fonte": "utente"
-	},
-	{
-		"id": "piselli_scatola",
-		"nome": "Piselli in Scatola",
-		"kcal_per_100g": 68
-	},
-	{
-		"id": "prodotto_ricetta_pollo_vegetale_v4_2",
-		"nome": "Prodotto da ricetta 'Pollo Vegetale v4.2'",
-		"kcal_per_100g": null,
-		"fonte": "ricetta"
-	},
-	{
-		"id": "whey",
-		"nome": "Proteine Whey Isolate",
-		"kcal_per_100g": 379
-	},
-	{
-		"id": "ricotta",
-		"nome": "Ricotta",
-		"kcal_per_100g": 150,
-		"fonte": "utente"
-	},
-	{
-		"id": "ricotta_light",
-		"nome": "Ricotta Light",
-		"kcal_per_100g": 103
-	},
-	{
-		"id": "riso",
-		"nome": "Riso",
-		"kcal_per_100g": 347
-	},
-	{
-		"id": "riso_integrale",
-		"nome": "Riso Integrale",
-		"kcal_per_100g": 350
-	},
-	{
-		"id": "riso_nero",
-		"nome": "Riso nero",
-		"kcal_per_100g": 360,
-		"fonte": "utente"
-	},
-	{
-		"id": "salmone",
-		"nome": "Salmone",
-		"kcal_per_100g": 208
-	},
-	{
-		"id": "sardine_olio_sgocc",
-		"nome": "Sardine all'Olio (sgocciolate)",
-		"kcal_per_100g": 186
-	},
-	{
-		"id": "seitan",
-		"nome": "Seitan",
-		"kcal_per_100g": 121
-	},
-	{
-		"id": "sgombro_olio_sgocc",
-		"nome": "Sgombro all'Olio EVO (sgocciolato)",
-		"kcal_per_100g": 214,
-		"fonte": "utente"
-	},
-	{
-		"id": "tofu",
-		"nome": "Tofu",
-		"kcal_per_100g": 126,
-		"fonte": "utente"
-	},
-	{
-		"id": "tonno_olio_sgocc",
-		"nome": "Tonno all'Olio (sgocciolato)",
-		"kcal_per_100g": 192
-	},
-	{
-		"id": "uova",
-		"nome": "Uova",
-		"kcal_per_100g": 143
-	},
-	{
-		"id": "yogurt_greco_0",
-		"nome": "Yogurt Greco 0%",
-		"kcal_per_100g": 57
-	}
-]
+{
+	"ingredienti": [
+		{
+			"id": "albume_uovo",
+			"nome": "Albume d'Uovo",
+			"kcal_per_100g": 52
+		},
+		{
+			"id": "banana",
+			"nome": "Banana",
+			"kcal_per_100g": 89,
+			"g_per_pezzo": 120
+		},
+		{
+			"id": "b_soia_secca",
+			"nome": "Bocconcini di Soia (secca)",
+			"kcal_per_100g": 330
+		},
+		{
+			"id": "fagioli",
+			"nome": "Fagioli",
+			"kcal_per_100g": 102
+		},
+		{
+			"id": "fette_biscottate",
+			"nome": "Fette Biscottate",
+			"kcal_per_100g": 410,
+			"g_per_pezzo": 10,
+			"fonte": "utente"
+		},
+		{
+			"id": "fiocchi_latte",
+			"nome": "Fiocchi di Latte",
+			"kcal_per_100g": 90
+		},
+		{
+			"id": "fiocchi_latte_light",
+			"nome": "Fiocchi di latte light",
+			"kcal_per_100g": 70,
+			"fonte": "utente"
+		},
+		{
+			"id": "grana_padano_ins",
+			"nome": "Grana Padano (IN'S)",
+			"kcal_per_100g": 398,
+			"g_per_pezzo": 30,
+			"fonte": "utente"
+		},
+		{
+			"id": "lupini",
+			"nome": "Lupini",
+			"kcal_per_100g": 120
+		},
+		{
+			"id": "mandorle",
+			"nome": "Mandorle",
+			"kcal_per_100g": 609
+		},
+		{
+			"id": "noci",
+			"nome": "Noci",
+			"kcal_per_100g": 654,
+			"g_per_pezzo": null
+		},
+		{
+			"id": "olio_evo",
+			"nome": "Olio Extra Vergine di Oliva",
+			"kcal_per_100g": 900
+		},
+		{
+			"id": "orata",
+			"nome": "orata",
+			"kcal_per_100g": 159
+		},
+		{
+			"id": "pane",
+			"nome": "Pane",
+			"kcal_per_100g": 270
+		},
+		{
+			"id": "parmigiano",
+			"nome": "Parmigiano",
+			"kcal_per_100g": 398
+		},
+		{
+			"id": "petto_pollo",
+			"nome": "Petto di Pollo",
+			"kcal_per_100g": 165
+		},
+		{
+			"id": "piadina",
+			"nome": "Piadina",
+			"kcal_per_100g": 306,
+			"fonte": "utente"
+		},
+		{
+			"id": "piselli_scatola",
+			"nome": "Piselli in Scatola",
+			"kcal_per_100g": 68
+		},
+		{
+			"id": "prodotto_ricetta_pollo_vegetale_v4_2",
+			"nome": "Prodotto da ricetta 'Pollo Vegetale v4.2'",
+			"kcal_per_100g": null,
+			"fonte": "ricetta"
+		},
+		{
+			"id": "whey",
+			"nome": "Proteine Whey Isolate",
+			"kcal_per_100g": 379
+		},
+		{
+			"id": "ricotta",
+			"nome": "Ricotta",
+			"kcal_per_100g": 150,
+			"fonte": "utente"
+		},
+		{
+			"id": "ricotta_light",
+			"nome": "Ricotta Light",
+			"kcal_per_100g": 103
+		},
+		{
+			"id": "riso",
+			"nome": "Riso",
+			"kcal_per_100g": 347
+		},
+		{
+			"id": "riso_integrale",
+			"nome": "Riso Integrale",
+			"kcal_per_100g": 350
+		},
+		{
+			"id": "riso_nero",
+			"nome": "Riso nero",
+			"kcal_per_100g": 360,
+			"fonte": "utente"
+		},
+		{
+			"id": "salmone",
+			"nome": "Salmone",
+			"kcal_per_100g": 208
+		},
+		{
+			"id": "sardine_olio_sgocc",
+			"nome": "Sardine all'Olio (sgocciolate)",
+			"kcal_per_100g": 186
+		},
+		{
+			"id": "seitan",
+			"nome": "Seitan",
+			"kcal_per_100g": 121
+		},
+		{
+			"id": "sgombro_olio_sgocc",
+			"nome": "Sgombro all'Olio EVO (sgocciolato)",
+			"kcal_per_100g": 214,
+			"fonte": "utente"
+		},
+		{
+			"id": "tofu",
+			"nome": "Tofu",
+			"kcal_per_100g": 126,
+			"fonte": "utente"
+		},
+		{
+			"id": "tonno_olio_sgocc",
+			"nome": "Tonno all'Olio (sgocciolato)",
+			"kcal_per_100g": 192
+		},
+		{
+			"id": "uova",
+			"nome": "Uova",
+			"kcal_per_100g": 143
+		},
+		{
+			"id": "yogurt_greco_0",
+			"nome": "Yogurt Greco 0%",
+			"kcal_per_100g": 57
+		}
+	]
+}
