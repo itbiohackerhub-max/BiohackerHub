@@ -171,7 +171,8 @@
 		{
 			"id": "uova",
 			"nome": "Uova",
-			"kcal_per_100g": 143
+			"kcal_per_100g": 143,
+			"g_per_pezzo": 75
 		},
 		{
 			"id": "yogurt_greco_0",
