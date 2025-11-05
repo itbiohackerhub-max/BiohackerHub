@@ -190,6 +190,12 @@
 			"nome": "Cioccolato Fondente 90%",
 			"kcal_per_100g": 624,
 			"fonte": "utente"
+		},
+		{
+			"id": "burro_arachidi_100",
+			"nome": "Burro d'Arachidi 100%",
+			"kcal_per_100g": 590,
+			"fonte": "standard"
 		}
 	]
 }
