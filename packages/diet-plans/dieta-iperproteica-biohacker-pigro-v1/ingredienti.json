@@ -3,199 +3,307 @@
 		{
 			"id": "albume_uovo",
 			"nome": "Albume d'Uovo",
-			"kcal_per_100g": 52
+			"kcal_per_100g": 52,
+			"prot_per_100g": 10.7,
+			"carb_per_100g": 0.3,
+			"fat_per_100g": 0.1
 		},
 		{
 			"id": "banana",
 			"nome": "Banana",
 			"kcal_per_100g": 89,
-			"g_per_pezzo": 120
+			"g_per_pezzo": 120,
+			"prot_per_100g": 1.2,
+			"carb_per_100g": 20.2,
+			"fat_per_100g": 0.3
 		},
 		{
 			"id": "b_soia_secca",
 			"nome": "Bocconcini di Soia (secca)",
-			"kcal_per_100g": 330
+			"kcal_per_100g": 330,
+			"prot_per_100g": 47.0,
+			"carb_per_100g": 15.0,
+			"fat_per_100g": 8.5
 		},
 		{
 			"id": "fagioli",
-			"nome": "Fagioli",
-			"kcal_per_100g": 102
+			"nome": "Fagioli (Cannellini, scatola)",
+			"kcal_per_100g": 102,
+			"prot_per_100g": 7.3,
+			"carb_per_100g": 21.2,
+			"fat_per_100g": 0.3
 		},
 		{
 			"id": "fette_biscottate",
 			"nome": "Fette Biscottate",
 			"kcal_per_100g": 410,
 			"g_per_pezzo": 10,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 11.3,
+			"carb_per_100g": 77.0,
+			"fat_per_100g": 6.0
 		},
 		{
 			"id": "fiocchi_latte",
 			"nome": "Fiocchi di Latte",
-			"kcal_per_100g": 90
+			"kcal_per_100g": 90,
+			"prot_per_100g": 11.0,
+			"carb_per_100g": 2.0,
+			"fat_per_100g": 4.5
 		},
 		{
 			"id": "fiocchi_latte_light",
 			"nome": "Fiocchi di latte light",
 			"kcal_per_100g": 70,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 13.5,
+			"carb_per_100g": 1.0,
+			"fat_per_100g": 0.8
 		},
 		{
 			"id": "grana_padano_ins",
 			"nome": "Grana Padano (IN'S)",
 			"kcal_per_100g": 398,
 			"g_per_pezzo": 30,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 33.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 29.0
 		},
 		{
 			"id": "lupini",
-			"nome": "Lupini",
-			"kcal_per_100g": 120
+			"nome": "Lupini (salamoia)",
+			"kcal_per_100g": 120,
+			"prot_per_100g": 16.5,
+			"carb_per_100g": 7.1,
+			"fat_per_100g": 2.4
 		},
 		{
 			"id": "mandorle",
 			"nome": "Mandorle",
-			"kcal_per_100g": 609
+			"kcal_per_100g": 609,
+			"prot_per_100g": 22.0,
+			"carb_per_100g": 4.6,
+			"fat_per_100g": 55.0
 		},
 		{
 			"id": "noci",
 			"nome": "Noci",
 			"kcal_per_100g": 654,
-			"g_per_pezzo": null
+			"g_per_pezzo": null,
+			"prot_per_100g": 10.5,
+			"carb_per_100g": 5.3,
+			"fat_per_100g": 57.7
 		},
 		{
 			"id": "olio_evo",
 			"nome": "Olio Extra Vergine di Oliva",
-			"kcal_per_100g": 900
+			"kcal_per_100g": 900,
+			"prot_per_100g": 0.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 99.9
 		},
 		{
 			"id": "orata",
-			"nome": "orata",
-			"kcal_per_100g": 159
+			"nome": "Orata",
+			"kcal_per_100g": 159,
+			"prot_per_100g": 20.7,
+			"carb_per_100g": 1.0,
+			"fat_per_100g": 3.8
 		},
 		{
 			"id": "pane",
 			"nome": "Pane",
-			"kcal_per_100g": 270
+			"kcal_per_100g": 270,
+			"prot_per_100g": 8.0,
+			"carb_per_100g": 63.0,
+			"fat_per_100g": 0.5
 		},
 		{
 			"id": "parmigiano",
 			"nome": "Parmigiano",
-			"kcal_per_100g": 398
+			"kcal_per_100g": 398,
+			"prot_per_100g": 32.4,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 29.7
 		},
 		{
 			"id": "petto_pollo",
 			"nome": "Petto di Pollo",
-			"kcal_per_100g": 165
+			"kcal_per_100g": 165,
+			"prot_per_100g": 23.5,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 1.7
 		},
 		{
 			"id": "piadina",
 			"nome": "Piadina",
 			"kcal_per_100g": 306,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 6.5,
+			"carb_per_100g": 49.5,
+			"fat_per_100g": 13.5
 		},
 		{
 			"id": "piselli_scatola",
 			"nome": "Piselli in Scatola",
-			"kcal_per_100g": 68
+			"kcal_per_100g": 68,
+			"prot_per_100g": 4.5,
+			"carb_per_100g": 8.0,
+			"fat_per_100g": 0.5
 		},
 		{
 			"id": "prodotto_ricetta_pollo_vegetale_v4_2",
 			"nome": "Prodotto da ricetta 'Pollo Vegetale v4.2'",
 			"kcal_per_100g": null,
-			"fonte": "ricetta"
+			"fonte": "ricetta",
+			"prot_per_100g": null,
+			"carb_per_100g": null,
+			"fat_per_100g": null
 		},
 		{
 			"id": "whey",
 			"nome": "Proteine Whey Isolate",
-			"kcal_per_100g": 379
+			"kcal_per_100g": 379,
+			"prot_per_100g": 85.0,
+			"carb_per_100g": 5.0,
+			"fat_per_100g": 4.0
 		},
 		{
 			"id": "ricotta",
 			"nome": "Ricotta",
 			"kcal_per_100g": 150,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 11.0,
+			"carb_per_100g": 3.0,
+			"fat_per_100g": 13.0
 		},
 		{
 			"id": "ricotta_light",
 			"nome": "Ricotta Light",
-			"kcal_per_100g": 103
+			"kcal_per_100g": 103,
+			"prot_per_100g": 10.0,
+			"carb_per_100g": 5.0,
+			"fat_per_100g": 5.0
 		},
 		{
 			"id": "riso",
-			"nome": "Riso",
-			"kcal_per_100g": 347
+			"nome": "Riso (bianco, crudo)",
+			"kcal_per_100g": 347,
+			"prot_per_100g": 7.0,
+			"carb_per_100g": 78.0,
+			"fat_per_100g": 0.7
 		},
 		{
 			"id": "riso_integrale",
-			"nome": "Riso Integrale",
-			"kcal_per_100g": 350
+			"nome": "Riso Integrale (crudo)",
+			"kcal_per_100g": 350,
+			"prot_per_100g": 7.5,
+			"carb_per_100g": 76.0,
+			"fat_per_100g": 2.0
 		},
 		{
 			"id": "riso_nero",
-			"nome": "Riso nero",
+			"nome": "Riso nero (crudo)",
 			"kcal_per_100g": 360,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 9.0,
+			"carb_per_100g": 75.0,
+			"fat_per_100g": 2.5
 		},
 		{
 			"id": "salmone",
-			"nome": "Salmone",
-			"kcal_per_100g": 208
+			"nome": "Salmone (fresco)",
+			"kcal_per_100g": 208,
+			"prot_per_100g": 20.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 13.0
 		},
 		{
 			"id": "sardine_olio_sgocc",
 			"nome": "Sardine all'Olio (sgocciolate)",
-			"kcal_per_100g": 186
+			"kcal_per_100g": 186,
+			"prot_per_100g": 24.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 10.0
 		},
 		{
 			"id": "seitan",
 			"nome": "Seitan",
-			"kcal_per_100g": 121
+			"kcal_per_100g": 121,
+			"prot_per_100g": 24.0,
+			"carb_per_100g": 5.0,
+			"fat_per_100g": 1.5
 		},
 		{
 			"id": "sgombro_olio_sgocc",
 			"nome": "Sgombro all'Olio EVO (sgocciolato)",
 			"kcal_per_100g": 214,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 25.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 17.0
 		},
 		{
 			"id": "tofu",
-			"nome": "Tofu",
+			"nome": "Tofu (al naturale)",
 			"kcal_per_100g": 126,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 12.0,
+			"carb_per_100g": 2.0,
+			"fat_per_100g": 7.0
 		},
 		{
 			"id": "tonno_olio_sgocc",
 			"nome": "Tonno all'Olio (sgocciolato)",
-			"kcal_per_100g": 192
+			"kcal_per_100g": 192,
+			"prot_per_100g": 25.0,
+			"carb_per_100g": 0.0,
+			"fat_per_100g": 8.0
 		},
 		{
 			"id": "uova",
-			"nome": "Uova",
+			"nome": "Uova (intere)",
 			"kcal_per_100g": 143,
-			"g_per_pezzo": 75
+			"g_per_pezzo": 75,
+			"prot_per_100g": 12.5,
+			"carb_per_100g": 0.7,
+			"fat_per_100g": 9.5
 		},
 		{
 			"id": "yogurt_greco_0",
 			"nome": "Yogurt Greco 0%",
-			"kcal_per_100g": 57
+			"kcal_per_100g": 57,
+			"prot_per_100g": 10.0,
+			"carb_per_100g": 3.5,
+			"fat_per_100g": 0.0
 		},
 		{
 			"id": "avena_fiocchi",
 			"nome": "Fiocchi di Avena",
 			"kcal_per_100g": 375,
-			"fonte": "standard"
+			"fonte": "standard",
+			"prot_per_100g": 13.5,
+			"carb_per_100g": 60.0,
+			"fat_per_100g": 7.0
 		},
 		{
 			"id": "cioccolato_fondente_90",
 			"nome": "Cioccolato Fondente 90%",
 			"kcal_per_100g": 624,
-			"fonte": "utente"
+			"fonte": "utente",
+			"prot_per_100g": 10.0,
+			"carb_per_100g": 18.0,
+			"fat_per_100g": 55.0
 		},
 		{
 			"id": "burro_arachidi_100",
 			"nome": "Burro d'Arachidi 100%",
 			"kcal_per_100g": 590,
-			"fonte": "standard"
+			"fonte": "standard",
+			"prot_per_100g": 30.0,
+			"carb_per_100g": 12.0,
+			"fat_per_100g": 48.0
 		}
 	]
 }
