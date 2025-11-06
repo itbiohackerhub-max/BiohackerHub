@@ -213,11 +213,11 @@
 		},
 		{
 			"id": "salmone",
-			"nome": "Salmone (fresco)",
-			"kcal_per_100g": 208,
-			"prot_per_100g": 20.0,
+			"nome": "Salmone (affumicato)",
+			"kcal_per_100g": 180,
+			"prot_per_100g": 25.0,
 			"carb_per_100g": 0.0,
-			"fat_per_100g": 13.0
+			"fat_per_100g": 9.0
 		},
 		{
 			"id": "sardine_olio_sgocc",
