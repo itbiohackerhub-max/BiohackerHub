@@ -1211,6 +1211,34 @@
 					"quantita_g": 10
 				}
 			]
+		},
+		{
+		  "id": "piadina_fiocchi_tofu_150",
+		  "nomePasto": "Piadina, Fiocchi Light e Tofu",
+		  "tipoPasto": [
+		    "Pranzo",
+		    "Cena"
+		  ],
+		  "etichette": [
+		    "piadina",
+		    "latticino",
+		    "contiene-soia",
+		    "high-protein"
+		  ],
+		  "ingredienti": [
+		    {
+		      "id": "piadina",
+		      "quantita_g": 80
+		    },
+		    {
+		      "id": "fiocchi_latte_light",
+		      "quantita_g": 150
+		    },
+		    {
+		      "id": "tofu",
+		      "quantita_g": 150
+		    }
+		  ]
 		}
 	]
 }
